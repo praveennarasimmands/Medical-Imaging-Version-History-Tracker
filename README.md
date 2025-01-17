@@ -17,10 +17,6 @@ The **Medical Imaging Version History Tracker** leverages **S3 Versioning** to s
 
 ### **How It Solves the Problem**
 By enabling versioning on the S3 bucket where medical images are stored, this system ensures that every revision of an image (whether it's a quality adjustment, annotation, or follow-up scan) is preserved. Clinicians can easily retrieve and compare previous versions of medical images to track the progression of a condition, ensuring accurate diagnosis and treatment decisions.
-
-![image](https://github.com/user-attachments/assets/875e7ae3-134f-43b9-afd9-fb2cd513d306)
-
-
 ---
 
 ## **How We Will Solve the Problems**
