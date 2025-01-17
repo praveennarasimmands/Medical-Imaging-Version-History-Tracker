@@ -5,6 +5,8 @@
 ### **Problem Statement**
 Medical imaging, such as X-rays, MRIs, and CT scans, often requires frequent revisions and updates. Clinicians may need to compare historical images to track the progression of a condition or ensure accurate diagnosis. Without version control, there's a risk of losing or overwriting critical image data. This can lead to misdiagnosis or incorrect treatment plans, impacting patient care.
 
+![image](https://github.com/user-attachments/assets/f3f24d04-52ed-4310-9f73-ee70e7292cc2)
+
 ### **Challenges**
 - **Multiple Versions of Medical Images**: Multiple revisions and updates to medical images can cause confusion if previous versions are not properly tracked.
 - **Inability to Track Changes**: Clinicians may struggle to track changes made to medical images, such as annotations or adjustments, over time.
@@ -15,6 +17,9 @@ The **Medical Imaging Version History Tracker** leverages **S3 Versioning** to s
 
 ### **How It Solves the Problem**
 By enabling versioning on the S3 bucket where medical images are stored, this system ensures that every revision of an image (whether it's a quality adjustment, annotation, or follow-up scan) is preserved. Clinicians can easily retrieve and compare previous versions of medical images to track the progression of a condition, ensuring accurate diagnosis and treatment decisions.
+
+![image](https://github.com/user-attachments/assets/875e7ae3-134f-43b9-afd9-fb2cd513d306)
+
 
 ---
 
